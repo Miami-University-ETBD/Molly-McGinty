@@ -1,0 +1,124 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background for a warm, cozy feel */
+    color: #2e3d49; /* Dark slate blue text for readability */
+ }
+ 
+ /* Header */
+ header {
+    background-color: #3cb371; /* Medium sea green */
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 2em;
+ }
+ 
+ /* Sub-Headers (H2) */
+ h2 {
+    color: #ff8c00; /* Dark orange for a pop of color */
+    margin-top: 1em;
+ }
+ 
+ /* Paragraphs */
+ p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+ }
+ 
+ /* Bold, Italic, Underline */
+ strong {
+    font-weight: bold;
+ }
+ 
+ em {
+    font-style: italic;
+ }
+ 
+ u {
+    text-decoration: underline;
+ }
+ 
+ /* List - bullet */
+ ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+ }
+ 
+ li {
+    margin-bottom: 0.5em;
+ }
+ 
+ /* Footer */
+ footer {
+    background-color: #ff8c00; /* Dark orange */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+ }
+ 
+ /* Table */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+ }
+ 
+ th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+ }
+ 
+ th {
+    background-color: #3cb371; /* Medium sea green */
+    color: white;
+ }
+ 
+ td {
+    background-color: #faf0e6; /* Linen for a soft, neutral contrast */
+ }
+ 
+ /* Flexbox layout */
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+ }
+ 
+ .main-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 1em 0;
+ }
+ 
+ footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+ 
+ /* Sections */
+ section {
+    flex: 3;
+    padding: 1em;
+    background-color: #fdf5e6; /* Light goldenrod for a subtle warm touch */
+    margin-right: 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ aside {
+    flex: 1;
+    background-color: #fffacd; /* Lemon chiffon for a light, energetic feel */
+    padding: 1em;
+    margin-left: 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+ }
